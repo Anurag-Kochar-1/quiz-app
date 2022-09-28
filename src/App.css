@@ -1,0 +1,126 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.start-btn {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.start-btn:hover {
+  background-color: lightgray;
+  padding: 12px 32px;
+}
+
+.Quiz {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.Quiz h1 {
+  font-size: 40px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  width: 300px;
+  /* height: 35px; */
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.options button:hover {
+  background-color: lightgray;
+}
+
+.options button:focus {
+  background-color: lightslategray;
+}
+
+.next-question-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-question-btn:hover {
+  background-color: lightgray;
+}
+
+.finish-quiz-btn {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.finish-quiz-btn:hover {
+  background-color: lightgray;
+}
+
+.endScreen {
+  text-align: center;
+}
+
+.endScreen h1 {
+  font-size: 50px;
+}
+
+.reset-quiz-btn {
+  background-color: lightgray;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-quiz-btn:hover {
+  background-color: lightslategray;
+}
